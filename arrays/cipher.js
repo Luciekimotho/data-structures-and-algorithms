@@ -9,8 +9,7 @@ function rotationalCipher(input, rotationFactor) {
   // Write your code here
   let output = [];
 
-  for (let i = 0; i < input.length; i++) {
-    let char = input[i];
+  for (const char of input) {
     let encodedVal = 0;
     let encoded = "";
 
